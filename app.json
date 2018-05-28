@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "pexeso",
+    "description": "This project is really great.",
+    "slug": "pexeso",
+    "sdkVersion": "27.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.justpilz.pexeso"
+    },
+    "android": {
+      "package": "com.justpilz.pexeso"
+    }
+  }
+}

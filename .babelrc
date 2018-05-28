@@ -1,0 +1,19 @@
+{
+  "presets": ["babel-preset-expo"],
+  "plugins": [
+    ["transform-react-jsx-source"],
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@Assets": "./assets",
+          "@Images": "./assets/images",
+          "@Bg": "./assets/bg",
+          "@Cards": "./assets/cards",
+          "@Audio": "./assets/audio",
+          "@Components": "./components",
+        }
+      }
+    ]
+  ]
+}
